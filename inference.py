@@ -1,36 +1,32 @@
 import requests
 
-# ✅ IMPORTANT: Your Hugging Face Space URL
 BASE_URL = "https://premchand45-smart-inbox-final.hf.space"
 
 
 def run():
-    print("Running inference...")  # cache break + debug
+    print("Running inference...")
 
     try:
-        # 🔹 Step 1: Reset environment
-        reset_res = requests.post(
-            f"{BASE_URL}/reset",
-            json={"task": "hard"}
-        )
-        print("RESET STATUS:", reset_res.status_code)
-        print("RESET RESPONSE:", reset_res.text)
+        # RESET
+        try:
+            res = requests.post(f"{BASE_URL}/reset", json={"task": "hard"}, timeout=10)
+            print("RESET:", res.status_code)
+        except:
+            print("RESET failed but continuing...")
 
-        # 🔹 Step 2: Send action
-        action = {
-            "action": {
-                "category": "billing",
-                "urgency": "high",
-                "response": "We are checking your issue."
+        # STEP
+        try:
+            action = {
+                "action": {
+                    "category": "billing",
+                    "urgency": "high",
+                    "response": "Checking issue"
+                }
             }
-        }
-
-        step_res = requests.post(
-            f"{BASE_URL}/step",
-            json=action
-        )
-        print("STEP STATUS:", step_res.status_code)
-        print("STEP RESPONSE:", step_res.text)
+            res2 = requests.post(f"{BASE_URL}/step", json=action, timeout=10)
+            print("STEP:", res2.status_code)
+        except:
+            print("STEP failed but continuing...")
 
     except Exception as e:
         print("ERROR:", str(e))
