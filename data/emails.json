@@ -1,0 +1,322 @@
+[
+  {
+    "id": "email_001",
+    "subject": "Invoice request",
+    "body": "Just a general billing question.",
+    "category": "billing",
+    "urgency": "low",
+    "expected_action": "escalate_finance"
+  },
+  {
+    "id": "email_002",
+    "subject": "WINNER WINNER",
+    "body": "You won a million dollars! Click here to claim your prize!",
+    "category": "spam",
+    "urgency": "low",
+    "expected_action": "ignore"
+  },
+  {
+    "id": "email_003",
+    "subject": "System Outage",
+    "body": "The whole system is down! We cannot work.",
+    "category": "technical",
+    "urgency": "high",
+    "expected_action": "reply_faq"
+  },
+  {
+    "id": "email_004",
+    "subject": "URGENT CHARGE",
+    "body": "My credit card was charged twice!",
+    "category": "billing",
+    "urgency": "high",
+    "expected_action": "invoice_resend"
+  },
+  {
+    "id": "email_005",
+    "subject": "Invoice request",
+    "body": "Just a general billing question.",
+    "category": "billing",
+    "urgency": "low",
+    "expected_action": "refund"
+  },
+  {
+    "id": "email_006",
+    "subject": "Password help",
+    "body": "A minor bug report.",
+    "category": "technical",
+    "urgency": "low",
+    "expected_action": "escalate_eng"
+  },
+  {
+    "id": "email_007",
+    "subject": "URGENT CHARGE",
+    "body": "My credit card was charged twice!",
+    "category": "billing",
+    "urgency": "high",
+    "expected_action": "refund"
+  },
+  {
+    "id": "email_008",
+    "subject": "Question about services",
+    "body": "I have a general question about your services.",
+    "category": "general",
+    "urgency": "low",
+    "expected_action": "assign_to_human"
+  },
+  {
+    "id": "email_009",
+    "subject": "WINNER WINNER",
+    "body": "You won a million dollars! Click here to claim your prize!",
+    "category": "spam",
+    "urgency": "low",
+    "expected_action": "ignore"
+  },
+  {
+    "id": "email_010",
+    "subject": "Question about services",
+    "body": "I have a general question about your services.",
+    "category": "general",
+    "urgency": "medium",
+    "expected_action": "assign_to_human"
+  },
+  {
+    "id": "email_011",
+    "subject": "Password help",
+    "body": "A minor bug report.",
+    "category": "technical",
+    "urgency": "low",
+    "expected_action": "forward_to_it"
+  },
+  {
+    "id": "email_012",
+    "subject": "Invoice request",
+    "body": "Just a general billing question.",
+    "category": "billing",
+    "urgency": "low",
+    "expected_action": "invoice_resend"
+  },
+  {
+    "id": "email_013",
+    "subject": "Invoice request",
+    "body": "Can I get a copy of my invoice? I need to know the charge amount.",
+    "category": "billing",
+    "urgency": "medium",
+    "expected_action": "invoice_resend"
+  },
+  {
+    "id": "email_014",
+    "subject": "WINNER WINNER",
+    "body": "You won a million dollars! Click here to claim your prize!",
+    "category": "spam",
+    "urgency": "low",
+    "expected_action": "ignore"
+  },
+  {
+    "id": "email_015",
+    "subject": "Invoice request",
+    "body": "Can I get a copy of my invoice? I need to know the charge amount.",
+    "category": "billing",
+    "urgency": "medium",
+    "expected_action": "refund"
+  },
+  {
+    "id": "email_016",
+    "subject": "WINNER WINNER",
+    "body": "You won a million dollars! Click here to claim your prize!",
+    "category": "spam",
+    "urgency": "low",
+    "expected_action": "ignore"
+  },
+  {
+    "id": "email_017",
+    "subject": "System Outage",
+    "body": "The whole system is down! We cannot work.",
+    "category": "technical",
+    "urgency": "high",
+    "expected_action": "reply_faq"
+  },
+  {
+    "id": "email_018",
+    "subject": "URGENT CHARGE",
+    "body": "My credit card was charged twice!",
+    "category": "billing",
+    "urgency": "high",
+    "expected_action": "refund"
+  },
+  {
+    "id": "email_019",
+    "subject": "WINNER WINNER",
+    "body": "You won a million dollars! Click here to claim your prize!",
+    "category": "spam",
+    "urgency": "low",
+    "expected_action": "ignore"
+  },
+  {
+    "id": "email_020",
+    "subject": "Invoice request",
+    "body": "Can I get a copy of my invoice? I need to know the charge amount.",
+    "category": "billing",
+    "urgency": "medium",
+    "expected_action": "invoice_resend"
+  },
+  {
+    "id": "email_021",
+    "subject": "Question about services",
+    "body": "I have a general question about your services.",
+    "category": "general",
+    "urgency": "high",
+    "expected_action": "assign_to_human"
+  },
+  {
+    "id": "email_022",
+    "subject": "Password help",
+    "body": "How do I reset my password? I forgot it.",
+    "category": "technical",
+    "urgency": "medium",
+    "expected_action": "forward_to_it"
+  },
+  {
+    "id": "email_023",
+    "subject": "System Outage",
+    "body": "The whole system is down! We cannot work.",
+    "category": "technical",
+    "urgency": "high",
+    "expected_action": "forward_to_it"
+  },
+  {
+    "id": "email_024",
+    "subject": "URGENT CHARGE",
+    "body": "My credit card was charged twice!",
+    "category": "billing",
+    "urgency": "high",
+    "expected_action": "escalate_finance"
+  },
+  {
+    "id": "email_025",
+    "subject": "System Outage",
+    "body": "The whole system is down! We cannot work.",
+    "category": "technical",
+    "urgency": "high",
+    "expected_action": "escalate_eng"
+  },
+  {
+    "id": "email_026",
+    "subject": "Password help",
+    "body": "A minor bug report.",
+    "category": "technical",
+    "urgency": "low",
+    "expected_action": "forward_to_it"
+  },
+  {
+    "id": "email_027",
+    "subject": "Question about services",
+    "body": "I have a general question about your services.",
+    "category": "general",
+    "urgency": "medium",
+    "expected_action": "reply_standard"
+  },
+  {
+    "id": "email_028",
+    "subject": "WINNER WINNER",
+    "body": "You won a million dollars! Click here to claim your prize!",
+    "category": "spam",
+    "urgency": "low",
+    "expected_action": "ignore"
+  },
+  {
+    "id": "email_029",
+    "subject": "Invoice request",
+    "body": "Can I get a copy of my invoice? I need to know the charge amount.",
+    "category": "billing",
+    "urgency": "medium",
+    "expected_action": "invoice_resend"
+  },
+  {
+    "id": "email_030",
+    "subject": "WINNER WINNER",
+    "body": "You won a million dollars! Click here to claim your prize!",
+    "category": "spam",
+    "urgency": "low",
+    "expected_action": "ignore"
+  },
+  {
+    "id": "email_031",
+    "subject": "WINNER WINNER",
+    "body": "You won a million dollars! Click here to claim your prize!",
+    "category": "spam",
+    "urgency": "low",
+    "expected_action": "ignore"
+  },
+  {
+    "id": "email_032",
+    "subject": "Question about services",
+    "body": "I have a general question about your services.",
+    "category": "general",
+    "urgency": "high",
+    "expected_action": "assign_to_human"
+  },
+  {
+    "id": "email_033",
+    "subject": "Password help",
+    "body": "How do I reset my password? I forgot it.",
+    "category": "technical",
+    "urgency": "medium",
+    "expected_action": "reply_faq"
+  },
+  {
+    "id": "email_034",
+    "subject": "System Outage",
+    "body": "The whole system is down! We cannot work.",
+    "category": "technical",
+    "urgency": "high",
+    "expected_action": "escalate_eng"
+  },
+  {
+    "id": "email_035",
+    "subject": "WINNER WINNER",
+    "body": "You won a million dollars! Click here to claim your prize!",
+    "category": "spam",
+    "urgency": "low",
+    "expected_action": "ignore"
+  },
+  {
+    "id": "email_036",
+    "subject": "Question about services",
+    "body": "I have a general question about your services.",
+    "category": "general",
+    "urgency": "medium",
+    "expected_action": "reply_standard"
+  },
+  {
+    "id": "email_037",
+    "subject": "System Outage",
+    "body": "The whole system is down! We cannot work.",
+    "category": "technical",
+    "urgency": "high",
+    "expected_action": "forward_to_it"
+  },
+  {
+    "id": "email_038",
+    "subject": "Invoice request",
+    "body": "Just a general billing question.",
+    "category": "billing",
+    "urgency": "low",
+    "expected_action": "refund"
+  },
+  {
+    "id": "email_039",
+    "subject": "System Outage",
+    "body": "The whole system is down! We cannot work.",
+    "category": "technical",
+    "urgency": "high",
+    "expected_action": "reply_faq"
+  },
+  {
+    "id": "email_040",
+    "subject": "Question about services",
+    "body": "I have a general question about your services.",
+    "category": "general",
+    "urgency": "high",
+    "expected_action": "reply_standard"
+  }
+]

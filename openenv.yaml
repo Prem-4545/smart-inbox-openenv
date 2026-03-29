@@ -1,0 +1,22 @@
+name: "Smart Inbox OpenEnv"
+description: >
+  A real-world simulate customer support email triage environment.
+  The agent must correctly classify the emails, deduce their urgency,
+  and take the right action. Contains Easy, Medium, and Hard tasks.
+version: "1.0.0"
+author: "OpenEnv Developer"
+
+server:
+  port: 7860
+  docker: true
+
+tasks:
+  - id: easy
+    name: "classify email"
+    description: "Read the email subject and body to classify it into 'billing', 'technical', 'spam', or 'general'."
+  - id: medium
+    name: "classify + urgency detection"
+    description: "Classify the email and also determine its urgency (low, medium, high)."
+  - id: hard
+    name: "classify + urgency + action decision"
+    description: "Classify the email, determine its urgency, and decide on the appropriate action (e.g., refund, escalate_eng, ignore)."
