@@ -2,15 +2,18 @@
 name = "smart-inbox-openenv"
 version = "0.1.0"
 description = "Smart Inbox OpenEnv"
-authors = [
-    {name = "Prem"}
-]
+authors = [{name = "Prem"}]
+
 dependencies = [
     "fastapi",
     "uvicorn",
     "pydantic",
-    "requests"
+    "requests",
+    "openenv-core>=0.2.0"
 ]
+
+[project.scripts]
+server = "server.app:main"
 
 [tool.setuptools]
 packages = ["server"]
